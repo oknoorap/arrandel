@@ -1,0 +1,44 @@
+{
+  "version": "1.0.0",
+  "scripts": {
+    "test": "xo && ava --verbose"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "ava": "^0.19.1",
+    "xo": "^0.18.2"
+  },
+  "files": [
+    "index.js"
+  ],
+  "ava": {
+    "files": [
+      "test/test.js"
+    ]
+  },
+  "xo": {
+    "esnext": true,
+    "space": true,
+    "semicolon": false
+  },
+  "dependencies": {
+    "php-parser": "^2.0.6",
+    "php-unparser": "^0.2.1"
+  },
+  "name": "arrandel",
+  "description": ":princess: Get PHP array variable in Node.js",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oknoorap/arrandel.git"
+  },
+  "keywords": [
+    "php",
+    "php-array"
+  ],
+  "author": "oknoorap",
+  "bugs": {
+    "url": "https://github.com/oknoorap/arrandel/issues"
+  },
+  "homepage": "https://github.com/oknoorap/arrandel#readme"
+}
